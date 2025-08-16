@@ -105,7 +105,37 @@ int main()
       
 
     }*/
+/*/
+
+#include <stdio.h>
+int main()
+{
+    int a;
+    for(a=0; a<=100000000; a++) {
+        printf("\nKRISHNA IS THIBDI");
+    }
+    return 0;
+}
+*/
+
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   printf("enter your number ");
+   scanf("%d",&n);
+   int a=5;
+
+   for(int i=1;i<=n;i++){
+    a=a+5;
+    printf("\n%d",a);
+
+   }
 
 
+   
+    return 0;
+}
 
 
