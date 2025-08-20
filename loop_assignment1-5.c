@@ -62,7 +62,7 @@ int main()
     
 }*/
 
-/*/
+
 
 #include <stdio.h>
 int main()
@@ -78,5 +78,18 @@ int main()
     }
     return 0;
 }
-    */
-   
+ 
+/*/
+
+ #include <stdio.h>
+ int main ()
+ {
+    int sum=0;
+    int n;
+    for(n=1;n<=50;n++){
+        sum=sum+n;
+
+    }
+    printf("%d",sum);
+ }
+   */
